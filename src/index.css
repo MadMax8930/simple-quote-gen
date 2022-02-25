@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Redressed&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,48 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+    height: 100vh;
+}
+
+header {
+    padding: 2em;
+    background-color: #00aeff;
+    margin-top: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+.quote {
+    font-size: 1.5em;
+    font-family: 'Redressed', cursive;
+    font-weight: 400;
+}
+
+.btn-large {
+    margin: 0.5em;
+}
+
+.card {
+    text-align: center;
+    width: 45em;
+}
+
+.new-quote-button {
+    background-color: #00aeff;
+    border-color: rgb(3, 3, 147);
+}
+
+button:hover {
+    background-color: rgb(223, 203, 25);
+}
+
+.intro {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00aeff;
+  padding: 1rem;
 }
